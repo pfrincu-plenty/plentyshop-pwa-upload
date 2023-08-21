@@ -6,10 +6,6 @@ on:
       branch:
         type: choice
         description: 'Choose branch for patch release'
-        options:
-          - beta7
-          - early
-          - stable7
         required: true
         default: 'beta7'
 
