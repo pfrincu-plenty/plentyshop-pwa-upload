@@ -5,6 +5,8 @@ on:
     inputs:
       branch:
         type: choice
+        options:
+          - main
         description: 'Choose branch for patch release'
         required: true
         default: 'main'
