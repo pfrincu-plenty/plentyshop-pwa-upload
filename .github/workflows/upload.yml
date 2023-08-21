@@ -7,7 +7,7 @@ on:
         type: choice
         description: 'Choose branch for patch release'
         required: true
-        default: 'beta7'
+        default: 'main'
 
 jobs:
   install-and-build-dependencies:
